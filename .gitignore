@@ -1,0 +1,19 @@
+# Generated Linux kernel module build intermediates
+*.o
+*.o.cmd
+.*.cmd
+*.mod
+*.mod.c
+Module.symvers
+modules.order
+.tmp_versions/
+*.order
+*.symvers
+
+# Editor and system files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# NOTE: *.ko are deliberately tracked as the original ARMv7 build artifacts.
